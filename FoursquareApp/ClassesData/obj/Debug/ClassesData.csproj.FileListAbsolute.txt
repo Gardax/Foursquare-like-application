@@ -1,0 +1,10 @@
+D:\webservicesteamproject\FoursquareApp\ClassesData\bin\Debug\ClassesData.dll.config
+D:\webservicesteamproject\FoursquareApp\ClassesData\bin\Debug\ClassesData.dll
+D:\webservicesteamproject\FoursquareApp\ClassesData\bin\Debug\ClassesData.pdb
+D:\webservicesteamproject\FoursquareApp\ClassesData\bin\Debug\ClassesModel.dll
+D:\webservicesteamproject\FoursquareApp\ClassesData\bin\Debug\EntityFramework.dll
+D:\webservicesteamproject\FoursquareApp\ClassesData\bin\Debug\ClassesModel.pdb
+D:\webservicesteamproject\FoursquareApp\ClassesData\bin\Debug\EntityFramework.xml
+D:\webservicesteamproject\FoursquareApp\ClassesData\obj\Debug\ClassesData.csprojResolveAssemblyReference.cache
+D:\webservicesteamproject\FoursquareApp\ClassesData\obj\Debug\ClassesData.dll
+D:\webservicesteamproject\FoursquareApp\ClassesData\obj\Debug\ClassesData.pdb
