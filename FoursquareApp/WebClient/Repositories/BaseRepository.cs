@@ -10,6 +10,7 @@ namespace WebClient.Repositories
     {
         protected const int Sha1CodeLength = 40;
         protected const int UserNumberLength = 4;
+        protected const int proximityDistance = 100;
 
         protected const string GameStatusOpen = "open";
         protected const string GameStatusFull = "full";

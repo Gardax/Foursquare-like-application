@@ -9,10 +9,16 @@ namespace WebClient
     {
         public static void Register(HttpConfiguration config)
         {
-            config.Routes.MapHttpRoute(
+            /*config.Routes.MapHttpRoute(
                    name: "FoursquareApi",
                    routeTemplate: "api/foursquare/{gameId}/{action}/{sessionKey}",
-                   defaults: new { controller = "game" }
+                   defaults: new { controller = "game", sessionKey = RouteParameter.Optional }
+               );*/
+
+            config.Routes.MapHttpRoute(
+                   name: "CommentApi",
+                   routeTemplate: "api/{controller}/{action}/{placeId}/{sessionKey}",
+                   defaults: new { sessionKey = RouteParameter.Optional, placeId = RouteParameter.Optional }
                );
 
             config.Routes.MapHttpRoute(
