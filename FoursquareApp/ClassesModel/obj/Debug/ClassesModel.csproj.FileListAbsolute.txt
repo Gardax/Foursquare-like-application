@@ -22,3 +22,11 @@ C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\Classe
 C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.csprojResolveAssemblyReference.cache
 C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.dll
 C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.pdb
+D:\testRepo\FoursquareApp\ClassesModel\bin\Debug\ClassesModel.dll.config
+D:\testRepo\FoursquareApp\ClassesModel\bin\Debug\ClassesModel.dll
+D:\testRepo\FoursquareApp\ClassesModel\bin\Debug\ClassesModel.pdb
+D:\testRepo\FoursquareApp\ClassesModel\bin\Debug\EntityFramework.dll
+D:\testRepo\FoursquareApp\ClassesModel\bin\Debug\EntityFramework.xml
+D:\testRepo\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.csprojResolveAssemblyReference.cache
+D:\testRepo\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.dll
+D:\testRepo\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.pdb
