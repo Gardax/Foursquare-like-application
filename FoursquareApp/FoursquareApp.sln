@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesModel", "ClassesMode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesData", "ClassesData\ClassesData.csproj", "{C8347B72-D382-45C1-BCD2-61082DAD477D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{482259EB-3C39-41A8-A18E-7E432A3AE5AD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "WebClient\WebClient.csproj", "{25A77B3F-E144-4246-9A9D-30809E8B7F24}"
 EndProject
 Global
@@ -23,10 +21,6 @@ Global
 		{C8347B72-D382-45C1-BCD2-61082DAD477D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8347B72-D382-45C1-BCD2-61082DAD477D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8347B72-D382-45C1-BCD2-61082DAD477D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{482259EB-3C39-41A8-A18E-7E432A3AE5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{482259EB-3C39-41A8-A18E-7E432A3AE5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{482259EB-3C39-41A8-A18E-7E432A3AE5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{482259EB-3C39-41A8-A18E-7E432A3AE5AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{25A77B3F-E144-4246-9A9D-30809E8B7F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{25A77B3F-E144-4246-9A9D-30809E8B7F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25A77B3F-E144-4246-9A9D-30809E8B7F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
