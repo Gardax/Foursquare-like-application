@@ -12,7 +12,6 @@ namespace ClassesModel
         public User()
         {
             this.Places = new HashSet<Place>();
-            this.Comments = new HashSet<Comment>();
         }
 
         [Key]

@@ -6,3 +6,11 @@ D:\webservicesteamproject\FoursquareApp\ClassesModel\bin\Debug\EntityFramework.x
 D:\webservicesteamproject\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.csprojResolveAssemblyReference.cache
 D:\webservicesteamproject\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.dll
 D:\webservicesteamproject\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.pdb
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\bin\Debug\ClassesModel.dll.config
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\bin\Debug\ClassesModel.dll
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\bin\Debug\ClassesModel.pdb
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\bin\Debug\EntityFramework.dll
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\bin\Debug\EntityFramework.xml
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.dll
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesModel\obj\Debug\ClassesModel.pdb

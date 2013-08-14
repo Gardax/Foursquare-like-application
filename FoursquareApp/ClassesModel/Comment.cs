@@ -14,6 +14,6 @@ namespace ClassesModel
 
         public string Text { get; set; }
 
-        public virtual User User { get; set; }
+        public User User { get; set; }
     }
 }

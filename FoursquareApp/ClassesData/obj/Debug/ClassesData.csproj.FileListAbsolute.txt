@@ -8,3 +8,13 @@ D:\webservicesteamproject\FoursquareApp\ClassesData\bin\Debug\EntityFramework.xm
 D:\webservicesteamproject\FoursquareApp\ClassesData\obj\Debug\ClassesData.csprojResolveAssemblyReference.cache
 D:\webservicesteamproject\FoursquareApp\ClassesData\obj\Debug\ClassesData.dll
 D:\webservicesteamproject\FoursquareApp\ClassesData\obj\Debug\ClassesData.pdb
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesData\bin\Debug\ClassesData.dll.config
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesData\bin\Debug\ClassesData.dll
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesData\bin\Debug\ClassesData.pdb
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesData\bin\Debug\ClassesModel.dll
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesData\bin\Debug\EntityFramework.dll
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesData\bin\Debug\ClassesModel.pdb
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesData\bin\Debug\EntityFramework.xml
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesData\obj\Debug\ClassesData.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesData\obj\Debug\ClassesData.dll
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\ClassesData\obj\Debug\ClassesData.pdb
