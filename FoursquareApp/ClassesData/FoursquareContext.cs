@@ -11,9 +11,8 @@ namespace ClassesData
     public class FoursquareContext : DbContext
     {
         public FoursquareContext() :
-            base("SQLSERVER_CONNECTION_STRING")
+            base("FoursquareDb")
         { 
-
         }
 
         public DbSet<User> Users { get; set; }

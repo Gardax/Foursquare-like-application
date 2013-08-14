@@ -13,7 +13,7 @@ namespace WebClient.Controllers
     {
         [HttpPost]
         [ActionName("register")]
-        public HttpResponseMessage RegisterUser(UserModel user)
+        public HttpResponseMessage RegisterUser([FromBody]UserModel user)
         {
             var responseMsg = this.PerformOperation(() =>
             {
@@ -31,7 +31,7 @@ namespace WebClient.Controllers
 
         [HttpPost]
         [ActionName("login")]
-        public HttpResponseMessage LoginUser(UserModel user)
+        public HttpResponseMessage LoginUser([FromBody]UserModel user)
         {
             var responseMsg = this.PerformOperation(() =>
             {

@@ -146,3 +146,5 @@ D:\testRepo\FoursquareApp\WebClient\bin\zh-Hant\System.Spatial.resources.dll
 D:\testRepo\FoursquareApp\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
 D:\testRepo\FoursquareApp\WebClient\obj\Debug\WebClient.dll
 D:\testRepo\FoursquareApp\WebClient\obj\Debug\WebClient.pdb
+D:\testRepo\FoursquareApp\WebClient\bin\System.Web.Cors.dll
+D:\testRepo\FoursquareApp\WebClient\bin\System.Web.Http.Cors.dll

@@ -84,6 +84,15 @@ namespace WebClient.Repositories
             user.Latitude = place.Latitude;
             user.Longitude = place.Longitude;
             context.SaveChanges();
+
+            PubnubAPI pubnub = new PubnubAPI(
+            "pub-c-9fc21b3b-c747-43f0-b756-766ebc32a9b1",               // PUBLISH_KEY
+            "sub-c-6d28e41e-04b5-11e3-a3d6-02ee2ddab7fe",               // SUBSCRIBE_KEY
+            "sec-c-YTVkZjU1NTMtMGE1MC00N2ZlLWE2MWEtNGExNjMwZTliODc5",   // SECRET_KEY
+            true                                                        // SSL_ON?
+        );
+            string channel = place.Id + "" + place.Name;
+            List<object> publishResult = pubnub.Publish(channel, "Hello Pubnub!");
         }
 
         private static void ValidatePlaceModel(PlaceModel place)

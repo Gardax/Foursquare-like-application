@@ -1,0 +1,47 @@
+﻿#content
+{
+    position:relative;
+}
+#leftMenu
+{
+    width: 20%;
+   //height: 90%;
+   //overflow: scroll;
+    float: left;
+    box-shadow: 0px 0px 3px 3px #b8b8b8; 
+}
+
+#center
+{
+    position: relative;
+    width: 78%;
+    //height: 90%;
+    margin-left: 1%;
+    box-shadow: 0px 0px 3px 3px #b8b8b8; 
+    float: left;
+}
+
+.clear::after
+{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+#nearPlaces
+{
+    width: 99%;
+    box-shadow: 0px 0px 3px 3px #b8b8b8; 
+    clear: both;
+    position: relative;
+    top: 10px;
+}
+#btn-show-register
+{
+    margin-left: 10px;
+}
+#logout
+{
+    display: none;
+    float: right;
+}
