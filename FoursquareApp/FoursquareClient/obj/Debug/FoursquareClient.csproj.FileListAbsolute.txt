@@ -1,0 +1,5 @@
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\FoursquareClient\bin\FoursquareClient.dll
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\FoursquareClient\bin\FoursquareClient.pdb
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\FoursquareClient\obj\Debug\FoursquareClient.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\FoursquareClient\obj\Debug\FoursquareClient.dll
+C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\FoursquareClient\obj\Debug\FoursquareClient.pdb

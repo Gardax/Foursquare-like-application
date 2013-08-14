@@ -1,0 +1,22 @@
+﻿#leftMenu
+{
+    width: 30%;
+    height: 90%;
+    overflow: scroll;
+    float: left;
+    border: 1px solid black;
+}
+
+#center
+{
+    width: 69%;
+    height: 90%;
+    color: 
+}
+
+.clear::after
+{
+    display: block;
+    content: '';
+    clear: both;
+}
