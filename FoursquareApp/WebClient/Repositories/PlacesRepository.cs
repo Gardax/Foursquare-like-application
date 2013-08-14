@@ -71,7 +71,7 @@ namespace WebClient.Repositories
             context.SaveChanges();
         }
 
-        public static void CheckIn(int userId, int placeId)
+        public static string CheckIn(int userId, int placeId)
         {
             var context = new FoursquareContext();
             var user = context.Users.FirstOrDefault(u => u.Id == userId);
@@ -86,13 +86,15 @@ namespace WebClient.Repositories
             context.SaveChanges();
 
             PubnubAPI pubnub = new PubnubAPI(
-            "pub-c-9fc21b3b-c747-43f0-b756-766ebc32a9b1",               // PUBLISH_KEY
-            "sub-c-6d28e41e-04b5-11e3-a3d6-02ee2ddab7fe",               // SUBSCRIBE_KEY
-            "sec-c-YTVkZjU1NTMtMGE1MC00N2ZlLWE2MWEtNGExNjMwZTliODc5",   // SECRET_KEY
+            "pub-c-b428e4fd-a82e-4cc7-a0d2-d4f832fd1d2b",               // PUBLISH_KEY
+            "sub-c-20f993fa-04b4-11e3-a005-02ee2ddab7fe",               // SUBSCRIBE_KEY
+            "sec-c-ZGEzODJjZDEtOWE1ZC00YTE4LTg2NTctNzdiYTc4NjBlODVh",   // SECRET_KEY
             true                                                        // SSL_ON?
-        );
+            );
             string channel = place.Id + "" + place.Name;
-            List<object> publishResult = pubnub.Publish(channel, "Hello Pubnub!");
+            List<object> publishResult = pubnub.Publish(channel, string.Format("User {0} checked at {1}.", user.Username,
+                place.Name));
+            return channel;
         }
 
         private static void ValidatePlaceModel(PlaceModel place)

@@ -19,10 +19,11 @@ namespace WebClient.Controllers
             {
                 UsersRepository.CreateUser(user.Username, user.AuthCode);
                 string username = string.Empty;
-                var sessionKey = UsersRepository.LoginUser(user.Username, user.AuthCode, out username);
+                int id = 0;
+                var sessionKey = UsersRepository.LoginUser(user.Username, user.AuthCode, out username, out id);
                 return new UserLoggedModel()
                 {
-
+                    Id = id,
                     SessionKey = sessionKey
                 };
             });
@@ -36,9 +37,11 @@ namespace WebClient.Controllers
             var responseMsg = this.PerformOperation(() =>
             {
                 string username = string.Empty;
-                var sessionKey = UsersRepository.LoginUser(user.Username, user.AuthCode, out username);
+                int id = 0;
+                var sessionKey = UsersRepository.LoginUser(user.Username, user.AuthCode, out username, out id);
                 return new UserLoggedModel()
                 {
+                    Id = id,
                     SessionKey = sessionKey
                 };
             });

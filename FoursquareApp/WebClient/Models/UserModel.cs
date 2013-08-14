@@ -9,6 +9,9 @@ namespace WebClient.Models
     [DataContract]
     public class UserModel
     {
+        [DataMember(Name = "id")]
+        public long Id { get; set; }
+
         [DataMember(Name = "username")]
         public string Username { get; set; }
 

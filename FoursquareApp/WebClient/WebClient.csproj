@@ -178,6 +178,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ChannelModel.cs" />
     <Compile Include="Models\CommentModel.cs" />
     <Compile Include="Models\PlaceModel.cs" />
     <Compile Include="Models\ServerErrorException.cs" />

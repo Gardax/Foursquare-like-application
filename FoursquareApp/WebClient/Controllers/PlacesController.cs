@@ -49,7 +49,7 @@ namespace WebClient.Controllers
             return response;
         }
 
-        [HttpPost]
+        [HttpGet]
         [ActionName("check-in")]
         public HttpResponseMessage CheckIn(int userId, int placeId, string sessionKey)
         {
@@ -61,7 +61,10 @@ namespace WebClient.Controllers
                     throw new ServerErrorException("Users can only check themselves.", "INV_NICK_LEN");
                 }
 
-                PlacesRepository.CheckIn(userId, placeId);
+                var channelName = PlacesRepository.CheckIn(userId, placeId);
+                var channel = new ChannelModel();
+                channel.Name = channelName;
+                return channel;
             });
             return response;
         }

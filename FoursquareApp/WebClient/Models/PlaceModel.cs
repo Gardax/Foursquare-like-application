@@ -9,6 +9,9 @@ namespace WebClient.Models
     [DataContract]
     public class PlaceModel
     {
+        [DataMember(Name = "id")]
+        public long Id { get; set; }
+
         [DataMember(Name = "latitude")]
         public int Latitude { get; set; }
 

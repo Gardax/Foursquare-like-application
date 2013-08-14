@@ -48,7 +48,7 @@ namespace WebClient.Repositories
 
         }
 
-        public static string LoginUser(string username, string authCode, out string nameToReturn)
+        public static string LoginUser(string username, string authCode, out string nameToReturn, out int id)
         {
             ValidateUsername(username);
             ValidateAuthCode(authCode);
@@ -66,6 +66,7 @@ namespace WebClient.Repositories
                 user.SessionKey = sessionKey;
                 context.SaveChanges();
                 nameToReturn = user.Username;
+                id = (int)user.Id;
                 return sessionKey;
             }
         }
