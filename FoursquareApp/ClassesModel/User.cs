@@ -23,6 +23,10 @@ namespace ClassesModel
 
         public string SessionKey { get; set; }
 
+        public int Longitude { get; set; }
+
+        public int Latitude { get; set; }
+
         public virtual ICollection<Place> Places { get; set; }
     }
 }

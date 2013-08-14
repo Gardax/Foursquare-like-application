@@ -70,6 +70,21 @@ namespace WebClient.Repositories
             }
         }
 
+        public static int LoginUser(string sessionKey)
+        {
+            ValidateSessionKey(sessionKey);
+            var context = new FoursquareContext();
+            using (context)
+            {
+                var user = context.Users.FirstOrDefault(u => u.SessionKey == sessionKey);
+                if (user == null)
+                {
+                    throw new ServerErrorException("Invalid user authentication", "INV_USR_AUTH");
+                }
+                return (int)user.Id;
+            }
+        }
+
         public static void LogoutUser(string sessionKey)
         {
             ValidateSessionKey(sessionKey);

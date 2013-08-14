@@ -25,3 +25,12 @@ C:\Users\Georgi\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\
 C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\bin\Debug\test.exe.config
 C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\obj\Debug\test.exe
 C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\obj\Debug\test.pdb
+C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\bin\Debug\test.exe
+C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\bin\Debug\test.pdb
+C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\bin\Debug\ClassesData.dll
+C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\bin\Debug\ClassesModel.dll
+C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\bin\Debug\EntityFramework.dll
+C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\bin\Debug\ClassesData.pdb
+C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\bin\Debug\ClassesModel.pdb
+C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\bin\Debug\EntityFramework.xml
+C:\Users\Petar\Documents\GitHub\Foursquare-like-application\FoursquareApp\test\obj\Debug\test.csprojResolveAssemblyReference.cache

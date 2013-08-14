@@ -13,10 +13,13 @@ namespace test
     {
         static void Main()
         {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<FoursquareContext, ClassesData.Migrations.Configuration>());
             FoursquareContext context = new FoursquareContext();
             User user = new User();
             user.Username = "user1";
             user.SessionKey = "ses";
+            user.Latitude = 1;
+            user.Longitude = 2;
 
             context.Users.Add(user);
             context.SaveChanges();
