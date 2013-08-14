@@ -71,6 +71,21 @@ namespace WebClient.Repositories
             context.SaveChanges();
         }
 
+        public static void CheckIn(int userId, int placeId)
+        {
+            var context = new FoursquareContext();
+            var user = context.Users.FirstOrDefault(u => u.Id == userId);
+            var place = context.Places.FirstOrDefault(p => p.Id == placeId);
+            if (user == null || place == null)
+            {
+                throw new ServerErrorException("User or place does not exist.", "INV_NICK_LEN");
+            }
+
+            user.Latitude = place.Latitude;
+            user.Longitude = place.Longitude;
+            context.SaveChanges();
+        }
+
         private static void ValidatePlaceModel(PlaceModel place)
         {
             if (place.Name == null || place.Name.Length < MinPlaceNameChars || place.Name.Length > MaxPlaceNameChars)

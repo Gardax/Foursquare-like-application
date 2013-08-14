@@ -17,6 +17,12 @@ namespace WebClient
 
             config.Routes.MapHttpRoute(
                    name: "CommentApi",
+                   routeTemplate: "api/{controller}/{action}/{userId}/{placeId}/{sessionKey}",
+                   defaults: new { sessionKey = RouteParameter.Optional, userId = RouteParameter.Optional }
+               );
+
+            config.Routes.MapHttpRoute(
+                   name: "CommentApi",
                    routeTemplate: "api/{controller}/{action}/{placeId}/{sessionKey}",
                    defaults: new { sessionKey = RouteParameter.Optional, placeId = RouteParameter.Optional }
                );
